@@ -1,0 +1,50 @@
+[2024-10-21T01:04:40.139+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: twitch_data_pipeline.extract_stream_data manual__2024-10-21T01:04:38.863552+00:00 [queued]>
+[2024-10-21T01:04:40.146+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: twitch_data_pipeline.extract_stream_data manual__2024-10-21T01:04:38.863552+00:00 [queued]>
+[2024-10-21T01:04:40.147+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-21T01:04:40.147+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2024-10-21T01:04:40.147+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-21T01:04:40.158+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): extract_stream_data> on 2024-10-21 01:04:38.863552+00:00
+[2024-10-21T01:04:40.168+0000] {standard_task_runner.py:55} INFO - Started process 2304 to run task
+[2024-10-21T01:04:40.171+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'twitch_data_pipeline', 'extract_stream_data', 'manual__2024-10-21T01:04:38.863552+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp18srac3f']
+[2024-10-21T01:04:40.171+0000] {standard_task_runner.py:83} INFO - Job 8: Subtask extract_stream_data
+[2024-10-21T01:04:40.224+0000] {task_command.py:389} INFO - Running <TaskInstance: twitch_data_pipeline.extract_stream_data manual__2024-10-21T01:04:38.863552+00:00 [running]> on host fba2d95bf80f
+[2024-10-21T01:04:40.286+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=leo-coltri
+AIRFLOW_CTX_DAG_ID=twitch_data_pipeline
+AIRFLOW_CTX_TASK_ID=extract_stream_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-21T01:04:38.863552+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-10-21T01:04:38.863552+00:00
+[2024-10-21T01:04:40.290+0000] {conn.py:381} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-10-21T01:04:40.290+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-10-21T01:04:40.291+0000] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 111. Disconnecting.
+[2024-10-21T01:04:40.291+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2024-10-21T01:04:40.340+0000] {conn.py:381} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-10-21T01:04:40.340+0000] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 111. Disconnecting.
+[2024-10-21T01:04:40.340+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2024-10-21T01:04:40.390+0000] {conn.py:381} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-10-21T01:04:40.390+0000] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2024-10-21T01:04:40.390+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2024-10-21T01:04:40.390+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 17, in extract_stream_data
+    producer = create_kafka_producer()
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 9, in create_kafka_producer
+    return KafkaProducer(bootstrap_servers=['localhost:9092'], max_block_ms=5000)
+  File "/home/airflow/.local/lib/python3.7/site-packages/kafka/producer/kafka.py", line 383, in __init__
+    **self.config)
+  File "/home/airflow/.local/lib/python3.7/site-packages/kafka/client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/kafka/client_async.py", line 900, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+[2024-10-21T01:04:40.402+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=twitch_data_pipeline, task_id=extract_stream_data, execution_date=20241021T010438, start_date=20241021T010440, end_date=20241021T010440
+[2024-10-21T01:04:40.413+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 8 for task extract_stream_data (NoBrokersAvailable; 2304)
+[2024-10-21T01:04:40.462+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2024-10-21T01:04:40.479+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

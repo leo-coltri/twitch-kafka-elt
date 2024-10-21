@@ -10,9 +10,7 @@ from airflow.operators.python_operator import PythonOperator
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.contrib.hooks.snowflake_hook import SnowflakeHook
 from airflow.contrib.operators.snowflake_operator import SnowflakeOperator
-from scripts import data_extraction, upload
-from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
-from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+from scripts import data_extraction
 
 
 default_args = {
@@ -31,8 +29,8 @@ with DAG(
     authURL = 'https://id.twitch.tv/oauth2/token'
     
     ## Put your Twitch Credentials here!!
-    client_ID = '' 
-    secret = ''
+    client_ID = '2rg70n7n287cn8c3yrdsslpoawpj33' 
+    secret = 'iuj5uywc3jvwp19nj8wfx1jxshw8wi'
 
     AutParams = {
         'client_id': client_ID,

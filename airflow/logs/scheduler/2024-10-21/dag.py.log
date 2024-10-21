@@ -1,0 +1,765 @@
+[2024-10-21T00:43:23.724+0000] {processor.py:153} INFO - Started process (PID=228) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:43:23.725+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:43:23.726+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:43:23.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:43:24.787+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:43:25.173+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:43:25.170+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-10-21T00:43:25.173+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:43:25.197+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.477 seconds
+[2024-10-21T00:43:55.387+0000] {processor.py:153} INFO - Started process (PID=284) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:43:55.388+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:43:55.389+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:43:55.389+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:43:55.828+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:43:55.996+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:43:55.993+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-10-21T00:43:55.996+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:43:56.025+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.640 seconds
+[2024-10-21T00:44:26.189+0000] {processor.py:153} INFO - Started process (PID=363) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:44:26.190+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:44:26.191+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:44:26.191+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:44:26.589+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:44:26.685+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:44:26.683+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-10-21T00:44:26.685+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:44:26.703+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.517 seconds
+[2024-10-21T00:44:56.844+0000] {processor.py:153} INFO - Started process (PID=418) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:44:56.845+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:44:56.846+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:44:56.845+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:44:57.237+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:44:57.334+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:44:57.332+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-10-21T00:44:57.334+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:44:57.349+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.508 seconds
+[2024-10-21T00:45:27.479+0000] {processor.py:153} INFO - Started process (PID=497) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:45:27.480+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:45:27.480+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:45:27.480+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:45:27.853+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:45:27.949+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:45:27.948+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-10-21T00:45:27.949+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:45:27.966+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.490 seconds
+[2024-10-21T00:45:58.105+0000] {processor.py:153} INFO - Started process (PID=552) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:45:58.106+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:45:58.106+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:45:58.106+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:45:58.522+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:45:58.622+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:45:58.621+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-10-21T00:45:58.623+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:45:58.641+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.540 seconds
+[2024-10-21T00:46:28.706+0000] {processor.py:153} INFO - Started process (PID=631) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:46:28.707+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:46:28.707+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:46:28.707+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:46:29.092+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:46:29.192+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:46:29.191+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-10-21T00:46:29.193+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:46:29.209+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.506 seconds
+[2024-10-21T00:46:59.355+0000] {processor.py:153} INFO - Started process (PID=686) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:46:59.356+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:46:59.357+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:46:59.357+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:46:59.745+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:46:59.844+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:46:59.842+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-10-21T00:46:59.844+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:46:59.861+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.510 seconds
+[2024-10-21T00:47:29.999+0000] {processor.py:153} INFO - Started process (PID=765) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:47:30.000+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:47:30.000+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:47:30.000+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:47:30.397+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:47:30.495+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:47:30.494+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-10-21T00:47:30.495+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:47:30.511+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.515 seconds
+[2024-10-21T00:48:00.730+0000] {processor.py:153} INFO - Started process (PID=820) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:48:00.732+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:48:00.732+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:48:00.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:48:01.134+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:48:01.231+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:48:01.230+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+  File "/opt/airflow/dags/scripts/data_extraction.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-10-21T00:48:01.231+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:48:01.247+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.519 seconds
+[2024-10-21T00:49:08.700+0000] {processor.py:153} INFO - Started process (PID=229) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:49:08.701+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:49:08.702+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:49:08.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:49:09.818+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:49:10.352+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:49:10.351+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+ImportError: cannot import name 'upload' from 'scripts' (unknown location)
+[2024-10-21T00:49:10.352+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:49:10.399+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.702 seconds
+[2024-10-21T00:49:40.540+0000] {processor.py:153} INFO - Started process (PID=285) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:49:40.541+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:49:40.542+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:49:40.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:49:40.915+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:49:41.174+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:49:41.173+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+ImportError: cannot import name 'upload' from 'scripts' (unknown location)
+[2024-10-21T00:49:41.174+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:49:41.188+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.651 seconds
+[2024-10-21T00:50:11.331+0000] {processor.py:153} INFO - Started process (PID=364) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:50:11.332+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:50:11.333+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:50:11.333+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:50:11.734+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:50:12.001+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:50:12.000+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    from scripts import data_extraction, upload
+ImportError: cannot import name 'upload' from 'scripts' (unknown location)
+[2024-10-21T00:50:12.001+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:50:12.015+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.687 seconds
+[2024-10-21T00:50:29.132+0000] {processor.py:153} INFO - Started process (PID=395) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:50:29.133+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:50:29.134+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:50:29.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:50:29.523+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:50:30.411+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:50:30.410+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 44, in <module>
+    access_token = AutCall.json()['access_token']
+KeyError: 'access_token'
+[2024-10-21T00:50:30.411+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:50:30.426+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.297 seconds
+[2024-10-21T00:50:33.480+0000] {processor.py:153} INFO - Started process (PID=426) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:50:33.481+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:50:33.482+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:50:33.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:50:33.918+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:50:34.388+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:50:34.387+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 42, in <module>
+    access_token = AutCall.json()['access_token']
+KeyError: 'access_token'
+[2024-10-21T00:50:34.388+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:50:34.402+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.926 seconds
+[2024-10-21T00:51:04.540+0000] {processor.py:153} INFO - Started process (PID=481) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:51:04.541+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:51:04.542+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:04.541+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:51:05.009+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:51:05.427+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:05.426+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 42, in <module>
+    access_token = AutCall.json()['access_token']
+KeyError: 'access_token'
+[2024-10-21T00:51:05.427+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:51:05.443+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 0.906 seconds
+[2024-10-21T00:51:07.494+0000] {processor.py:153} INFO - Started process (PID=488) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:51:07.495+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:51:07.496+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:07.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:51:07.887+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:51:08.514+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:51:08.718+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:08.717+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:twitch_data_pipeline
+[2024-10-21T00:51:08.725+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:08.725+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:twitch_data_pipeline
+[2024-10-21T00:51:08.730+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:08.730+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:twitch_data_pipeline
+[2024-10-21T00:51:08.731+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:08.730+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:51:08.745+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:08.745+0000] {dag.py:2697} INFO - Creating ORM DAG for twitch_data_pipeline
+[2024-10-21T00:51:08.757+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:08.757+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:51:08.775+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.284 seconds
+[2024-10-21T00:51:38.909+0000] {processor.py:153} INFO - Started process (PID=567) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:51:38.910+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:51:38.910+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:38.910+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:51:39.354+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:51:39.937+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:51:39.996+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:39.996+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:51:40.015+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:51:40.015+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:51:40.030+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.125 seconds
+[2024-10-21T00:52:10.172+0000] {processor.py:153} INFO - Started process (PID=631) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:52:10.173+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:52:10.173+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:52:10.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:52:10.665+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:52:11.301+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:52:11.376+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:52:11.375+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:52:11.398+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:52:11.398+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:52:11.415+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.247 seconds
+[2024-10-21T00:52:41.556+0000] {processor.py:153} INFO - Started process (PID=701) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:52:41.557+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:52:41.558+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:52:41.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:52:41.998+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:52:42.595+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:52:42.689+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:52:42.688+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:52:42.712+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:52:42.712+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:52:42.726+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.174 seconds
+[2024-10-21T00:53:12.854+0000] {processor.py:153} INFO - Started process (PID=780) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:53:12.855+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:53:12.856+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:53:12.856+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:53:13.239+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:53:13.900+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:53:13.962+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:53:13.961+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:53:13.983+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:53:13.983+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:53:13.998+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.146 seconds
+[2024-10-21T00:53:44.133+0000] {processor.py:153} INFO - Started process (PID=835) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:53:44.134+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:53:44.135+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:53:44.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:53:44.554+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:53:45.132+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:53:45.194+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:53:45.193+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:53:45.214+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:53:45.214+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:53:45.229+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.100 seconds
+[2024-10-21T00:54:15.356+0000] {processor.py:153} INFO - Started process (PID=914) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:54:15.357+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:54:15.358+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:54:15.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:54:15.750+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:54:16.342+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:54:16.403+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:54:16.402+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:54:16.423+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:54:16.422+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:54:16.437+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.084 seconds
+[2024-10-21T00:54:46.561+0000] {processor.py:153} INFO - Started process (PID=969) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:54:46.562+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:54:46.563+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:54:46.563+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:54:46.949+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:54:47.573+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:54:47.635+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:54:47.634+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:54:47.655+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:54:47.655+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:54:47.673+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.114 seconds
+[2024-10-21T00:55:17.852+0000] {processor.py:153} INFO - Started process (PID=1048) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:55:17.853+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:55:17.853+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:55:17.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:55:18.256+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:55:18.897+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:55:18.959+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:55:18.958+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:55:18.978+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:55:18.978+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:55:18.993+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.144 seconds
+[2024-10-21T00:55:49.118+0000] {processor.py:153} INFO - Started process (PID=1103) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:55:49.119+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:55:49.119+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:55:49.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:55:49.513+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:55:50.135+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:55:50.195+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:55:50.194+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:55:50.215+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:55:50.215+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:55:50.230+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.115 seconds
+[2024-10-21T00:56:20.354+0000] {processor.py:153} INFO - Started process (PID=1186) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:56:20.355+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:56:20.356+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:56:20.356+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:56:20.740+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:56:21.327+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:56:21.388+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:56:21.388+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:56:21.409+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:56:21.409+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:56:21.425+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.073 seconds
+[2024-10-21T00:56:51.505+0000] {processor.py:153} INFO - Started process (PID=1265) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:56:51.506+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:56:51.507+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:56:51.507+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:56:51.974+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:56:52.604+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:56:52.670+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:56:52.670+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:56:52.692+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:56:52.692+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:56:52.709+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.208 seconds
+[2024-10-21T00:57:22.859+0000] {processor.py:153} INFO - Started process (PID=1324) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:57:22.860+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:57:22.860+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:57:22.860+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:57:23.268+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:57:23.887+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:57:23.950+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:57:23.950+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:57:23.972+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:57:23.972+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:57:23.988+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.132 seconds
+[2024-10-21T00:57:54.128+0000] {processor.py:153} INFO - Started process (PID=1407) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:57:54.129+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:57:54.129+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:57:54.129+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:57:54.549+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:57:55.142+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:57:55.203+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:57:55.203+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:57:55.222+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:57:55.222+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:57:55.238+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.115 seconds
+[2024-10-21T00:58:25.373+0000] {processor.py:153} INFO - Started process (PID=1466) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:58:25.374+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:58:25.375+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:58:25.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:58:25.760+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:58:26.348+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:58:26.408+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:58:26.408+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:58:26.428+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:58:26.428+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:58:26.444+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.073 seconds
+[2024-10-21T00:58:56.503+0000] {processor.py:153} INFO - Started process (PID=1545) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:58:56.504+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:58:56.505+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:58:56.505+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:58:56.910+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:58:57.501+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:58:57.567+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:58:57.567+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:58:57.587+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:58:57.587+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:58:57.602+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.102 seconds
+[2024-10-21T00:59:27.730+0000] {processor.py:153} INFO - Started process (PID=1600) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:59:27.731+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:59:27.731+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:59:27.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:59:28.121+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:59:28.705+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:59:28.766+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:59:28.766+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:59:28.786+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:59:28.786+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:59:28.801+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.075 seconds
+[2024-10-21T00:59:58.919+0000] {processor.py:153} INFO - Started process (PID=1679) to work on /opt/airflow/dags/dag.py
+[2024-10-21T00:59:58.920+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T00:59:58.920+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:59:58.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T00:59:59.312+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T00:59:59.894+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T00:59:59.956+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:59:59.956+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T00:59:59.977+0000] {logging_mixin.py:137} INFO - [2024-10-21T00:59:59.977+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T00:59:59.992+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.076 seconds
+[2024-10-21T01:00:30.046+0000] {processor.py:153} INFO - Started process (PID=1734) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:00:30.047+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:00:30.047+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:00:30.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:00:30.455+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:00:31.081+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:00:31.150+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:00:31.150+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:00:31.174+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:00:31.173+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:00:31.189+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.146 seconds
+[2024-10-21T01:01:01.286+0000] {processor.py:153} INFO - Started process (PID=1813) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:01:01.287+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:01:01.288+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:01:01.288+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:01:01.678+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:01:02.290+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:01:02.349+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:01:02.349+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:01:02.369+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:01:02.369+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:01:02.384+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.100 seconds
+[2024-10-21T01:01:32.441+0000] {processor.py:153} INFO - Started process (PID=1877) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:01:32.442+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:01:32.442+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:01:32.442+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:01:32.838+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:01:33.577+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:01:33.647+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:01:33.646+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:01:33.670+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:01:33.670+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:01:33.686+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.248 seconds
+[2024-10-21T01:02:03.816+0000] {processor.py:153} INFO - Started process (PID=1947) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:02:03.817+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:02:03.818+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:02:03.818+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:02:04.236+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:02:04.848+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:02:04.906+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:02:04.906+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:02:04.925+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:02:04.925+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:02:04.940+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.127 seconds
+[2024-10-21T01:02:35.074+0000] {processor.py:153} INFO - Started process (PID=2026) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:02:35.075+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:02:35.076+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:02:35.076+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:02:35.498+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:02:36.120+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:02:36.185+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:02:36.184+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:02:36.205+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:02:36.205+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:02:36.220+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.150 seconds
+[2024-10-21T01:03:06.364+0000] {processor.py:153} INFO - Started process (PID=2081) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:03:06.365+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:03:06.365+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:03:06.365+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:03:06.759+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:03:07.426+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:03:07.495+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:03:07.494+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:03:07.505+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:03:07.505+0000] {dag.py:2697} INFO - Creating ORM DAG for twitch_data_pipeline
+[2024-10-21T01:03:07.516+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:03:07.516+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:03:07.532+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.171 seconds
+[2024-10-21T01:03:37.683+0000] {processor.py:153} INFO - Started process (PID=2164) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:03:37.685+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:03:37.686+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:03:37.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:03:38.082+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:03:38.684+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:03:38.746+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:03:38.746+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:03:38.770+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:03:38.770+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:03:38.785+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.105 seconds
+[2024-10-21T01:04:08.907+0000] {processor.py:153} INFO - Started process (PID=2219) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:04:08.908+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:04:08.909+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:04:08.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:04:09.304+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:04:09.928+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:04:09.986+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:04:09.985+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:04:10.006+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:04:10.006+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:04:10.021+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.116 seconds
+[2024-10-21T01:04:40.149+0000] {processor.py:153} INFO - Started process (PID=2301) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:04:40.150+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:04:40.151+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:04:40.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:04:40.558+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:04:41.134+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:04:41.194+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:04:41.193+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:04:41.214+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:04:41.214+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:04:41.229+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.082 seconds
+[2024-10-21T01:05:11.281+0000] {processor.py:153} INFO - Started process (PID=2357) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:05:11.282+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:05:11.283+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:05:11.283+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:05:11.688+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:05:12.301+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:05:12.363+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:05:12.363+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:05:12.384+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:05:12.384+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:05:12.399+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.122 seconds
+[2024-10-21T01:05:42.488+0000] {processor.py:153} INFO - Started process (PID=2436) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:05:42.489+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:05:42.489+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:05:42.489+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:05:42.890+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:05:43.489+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:05:43.552+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:05:43.551+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:05:43.580+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:05:43.580+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:05:43.600+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.115 seconds
+[2024-10-21T01:06:13.703+0000] {processor.py:153} INFO - Started process (PID=2514) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:06:13.704+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:06:13.705+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:06:13.705+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:06:14.097+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:06:14.706+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:06:14.778+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:06:14.777+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:06:14.799+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:06:14.799+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:06:14.816+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.116 seconds
+[2024-10-21T01:06:44.955+0000] {processor.py:153} INFO - Started process (PID=2573) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:06:44.957+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:06:44.957+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:06:44.957+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:06:45.347+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:06:45.941+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:06:46.000+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:06:46.000+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:06:46.021+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:06:46.021+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:06:46.035+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.083 seconds
+[2024-10-21T01:07:16.163+0000] {processor.py:153} INFO - Started process (PID=2652) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:07:16.164+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:07:16.165+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:07:16.165+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:07:16.557+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:07:17.169+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:07:17.231+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:07:17.230+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:07:17.251+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:07:17.251+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:07:17.266+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.105 seconds
+[2024-10-21T01:07:47.410+0000] {processor.py:153} INFO - Started process (PID=2711) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:07:47.411+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:07:47.412+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:07:47.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:07:48.062+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:07:48.784+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:07:48.884+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:07:48.883+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:07:48.922+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:07:48.922+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:07:48.950+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.546 seconds
+[2024-10-21T01:08:19.110+0000] {processor.py:153} INFO - Started process (PID=2790) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:08:19.111+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:08:19.112+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:08:19.112+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:08:19.505+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:08:20.126+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:08:20.183+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:08:20.182+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:08:20.201+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:08:20.201+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:08:20.216+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.109 seconds
+[2024-10-21T01:08:50.343+0000] {processor.py:153} INFO - Started process (PID=2845) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:08:50.344+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:08:50.345+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:08:50.345+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:08:50.734+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:08:51.348+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:08:51.411+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:08:51.410+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:08:51.431+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:08:51.431+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:08:51.446+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.106 seconds
+[2024-10-21T01:09:21.494+0000] {processor.py:153} INFO - Started process (PID=2925) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:09:21.495+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:09:21.495+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:09:21.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:09:21.922+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:09:22.590+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:09:22.655+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:09:22.655+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:09:22.676+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:09:22.676+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:09:22.692+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.203 seconds
+[2024-10-21T01:09:52.846+0000] {processor.py:153} INFO - Started process (PID=2980) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:09:52.847+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:09:52.848+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:09:52.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:09:53.230+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:09:53.803+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:09:53.865+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:09:53.865+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:09:53.885+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:09:53.885+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:09:53.901+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.058 seconds
+[2024-10-21T01:10:23.971+0000] {processor.py:153} INFO - Started process (PID=3059) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:10:23.972+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:10:23.973+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:10:23.973+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:10:24.362+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:10:24.970+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:10:25.028+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:10:25.028+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:10:25.049+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:10:25.049+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:10:25.063+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.095 seconds
+[2024-10-21T01:10:55.139+0000] {processor.py:153} INFO - Started process (PID=3114) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:10:55.140+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:10:55.141+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:10:55.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:10:55.540+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:10:56.115+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:10:56.231+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:10:56.230+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:10:56.251+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:10:56.251+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:10:56.265+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.129 seconds
+[2024-10-21T01:11:26.310+0000] {processor.py:153} INFO - Started process (PID=3193) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:11:26.311+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:11:26.312+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:11:26.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:11:26.699+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:11:27.311+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:11:27.373+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:11:27.372+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:11:27.393+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:11:27.393+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:11:27.409+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.102 seconds
+[2024-10-21T01:11:57.540+0000] {processor.py:153} INFO - Started process (PID=3272) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:11:57.541+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:11:57.542+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:11:57.541+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:11:57.944+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:11:58.568+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:11:58.628+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:11:58.628+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:11:58.648+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:11:58.648+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:11:58.663+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.126 seconds
+[2024-10-21T01:12:28.727+0000] {processor.py:153} INFO - Started process (PID=3327) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:12:28.728+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:12:28.729+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:12:28.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:12:29.137+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:12:29.757+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:12:29.821+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:12:29.821+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:12:29.841+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:12:29.841+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:12:29.856+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.132 seconds
+[2024-10-21T01:12:59.899+0000] {processor.py:153} INFO - Started process (PID=3406) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:12:59.900+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:12:59.900+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:12:59.900+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:13:00.281+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:13:00.876+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:13:00.937+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:13:00.936+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:13:00.956+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:13:00.956+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:13:00.970+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.074 seconds
+[2024-10-21T01:13:31.091+0000] {processor.py:153} INFO - Started process (PID=3461) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:13:31.092+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:13:31.092+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:13:31.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:13:31.476+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:13:32.064+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:13:32.125+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:13:32.124+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:13:32.145+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:13:32.145+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:13:32.159+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.071 seconds
+[2024-10-21T01:14:02.221+0000] {processor.py:153} INFO - Started process (PID=3544) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:14:02.222+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:14:02.223+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:14:02.222+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:14:02.617+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:14:03.229+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:14:03.290+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:14:03.289+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:14:03.317+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:14:03.316+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:14:03.334+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.117 seconds
+[2024-10-21T01:14:33.419+0000] {processor.py:153} INFO - Started process (PID=3599) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:14:33.420+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:14:33.420+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:14:33.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:14:33.858+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:14:34.534+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:14:34.614+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:14:34.613+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:14:34.642+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:14:34.642+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:14:34.660+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.245 seconds
+[2024-10-21T01:15:04.806+0000] {processor.py:153} INFO - Started process (PID=3678) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:15:04.807+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:15:04.809+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:15:04.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:15:05.266+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:15:05.898+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:15:05.965+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:15:05.965+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:15:05.987+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:15:05.986+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:15:06.002+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.200 seconds
+[2024-10-21T01:15:36.153+0000] {processor.py:153} INFO - Started process (PID=3733) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:15:36.154+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:15:36.155+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:15:36.154+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:15:36.607+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:15:37.242+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:15:37.348+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:15:37.347+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:15:37.378+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:15:37.378+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:15:37.400+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.250 seconds
+[2024-10-21T01:16:07.622+0000] {processor.py:153} INFO - Started process (PID=3812) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:16:07.623+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:16:07.623+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:16:07.623+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:16:08.091+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:16:08.697+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:16:08.760+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:16:08.759+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:16:08.788+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:16:08.787+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:16:08.808+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.190 seconds
+[2024-10-21T01:16:38.948+0000] {processor.py:153} INFO - Started process (PID=3876) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:16:38.949+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:16:38.950+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:16:38.950+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:16:39.433+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:16:40.069+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:16:40.148+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:16:40.148+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:16:40.170+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:16:40.170+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:16:40.185+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.240 seconds
+[2024-10-21T01:17:10.320+0000] {processor.py:153} INFO - Started process (PID=3950) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:17:10.321+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:17:10.322+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:17:10.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:17:10.722+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:17:11.319+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:17:11.381+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:17:11.381+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:17:11.402+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:17:11.402+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:17:11.417+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.100 seconds
+[2024-10-21T01:17:41.547+0000] {processor.py:153} INFO - Started process (PID=4029) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:17:41.548+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:17:41.548+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:17:41.548+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:17:41.924+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:17:42.565+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:17:42.626+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:17:42.626+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:17:42.646+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:17:42.645+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:17:42.660+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.116 seconds
+[2024-10-21T01:18:12.783+0000] {processor.py:153} INFO - Started process (PID=4084) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:18:12.784+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:18:12.784+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:18:12.784+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:18:13.174+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:18:13.771+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:18:13.830+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:18:13.829+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:18:13.849+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:18:13.849+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:18:13.864+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.084 seconds
+[2024-10-21T01:18:43.907+0000] {processor.py:153} INFO - Started process (PID=4163) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:18:43.908+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:18:43.909+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:18:43.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:18:44.331+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:18:45.002+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:18:45.066+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:18:45.066+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:18:45.088+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:18:45.088+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:18:45.104+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.201 seconds
+[2024-10-21T01:19:15.187+0000] {processor.py:153} INFO - Started process (PID=4218) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:19:15.188+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:19:15.188+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:19:15.188+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:19:15.576+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:19:16.151+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:19:16.212+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:19:16.211+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:19:16.232+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:19:16.231+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:19:16.246+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.063 seconds
+[2024-10-21T01:19:46.368+0000] {processor.py:153} INFO - Started process (PID=4297) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:19:46.369+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:19:46.369+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:19:46.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:19:46.849+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:19:47.532+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:19:47.593+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:19:47.592+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:19:47.625+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:19:47.625+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:19:47.641+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.276 seconds
+[2024-10-21T01:20:17.799+0000] {processor.py:153} INFO - Started process (PID=4352) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:20:17.801+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:20:17.801+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:20:17.801+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:20:18.289+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:20:19.009+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:20:19.074+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:20:19.073+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:20:19.099+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:20:19.098+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:20:19.114+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.319 seconds
+[2024-10-21T01:20:49.261+0000] {processor.py:153} INFO - Started process (PID=4431) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:20:49.262+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:20:49.262+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:20:49.262+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:20:49.675+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:20:50.319+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:20:50.382+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:20:50.382+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:20:50.404+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:20:50.404+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:20:50.420+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.162 seconds
+[2024-10-21T01:21:20.553+0000] {processor.py:153} INFO - Started process (PID=4486) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:21:20.554+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:21:20.555+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:21:20.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:21:20.965+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:21:21.568+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:21:21.627+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:21:21.627+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:21:21.647+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:21:21.647+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:21:21.664+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.114 seconds
+[2024-10-21T01:21:51.797+0000] {processor.py:153} INFO - Started process (PID=4565) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:21:51.798+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:21:51.798+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:21:51.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:21:52.200+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:21:52.791+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:21:52.850+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:21:52.849+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:21:52.869+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:21:52.869+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:21:52.883+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.089 seconds
+[2024-10-21T01:22:23.096+0000] {processor.py:153} INFO - Started process (PID=4644) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:22:23.097+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:22:23.098+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:22:23.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:22:23.506+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:22:24.170+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:22:24.244+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:22:24.244+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:22:24.267+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:22:24.267+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:22:24.284+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.192 seconds
+[2024-10-21T01:22:54.445+0000] {processor.py:153} INFO - Started process (PID=4699) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:22:54.446+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:22:54.446+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:22:54.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:22:54.907+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2024-10-21T01:22:55.581+0000] {processor.py:753} INFO - DAG(s) dict_keys(['twitch_data_pipeline']) retrieved from /opt/airflow/dags/dag.py
+[2024-10-21T01:22:55.647+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:22:55.647+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-10-21T01:22:55.670+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:22:55.670+0000] {dag.py:3427} INFO - Setting next_dagrun for twitch_data_pipeline to 2024-01-01T00:00:00+00:00, run_after=2025-01-01T00:00:00+00:00
+[2024-10-21T01:22:55.688+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag.py took 1.247 seconds
+[2024-10-21T01:23:25.905+0000] {processor.py:153} INFO - Started process (PID=4778) to work on /opt/airflow/dags/dag.py
+[2024-10-21T01:23:25.905+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-10-21T01:23:25.906+0000] {logging_mixin.py:137} INFO - [2024-10-21T01:23:25.906+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-10-21T01:23:26.309+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:109 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
